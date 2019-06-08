@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+
+	<style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+
+
+	.clearfix::before {
+      	content: "";
+      	display: block;
+      	height: 0;
+     	visibility: hidden;
+      	clear: both;
+   			 }
+
+    	.clearfix {
+     	 *zoom: 1;
+    }
+
+	a{
+		list-style: none;
+	}
+			.father{
+				height: 1000px;
+				background-color: #eee;
+			}
+			.son{
+				width: 854px;
+				height: 548px;
+				background-color: #fff;
+				margin: 0 auto;
+			}
+			/*logo--------------*/
+			.son .one{
+				width: 786px;
+				height: 88px;
+				margin: 0 auto;
+			}
+			.son .one p {
+				text-align: center;
+			}
+
+			/*logo--------------*/
+			.son .two{
+				width: 786px;
+				height: 385px;
+				background-color: #fff;
+				margin: 30px auto 0;
+			}
+			
+		.son .two .a{
+			width: 332px;
+			height: 25px;
+		
+			margin: 0 auto;
+		}
+
+		.son .two .b{
+			width: 332px;
+			height: 56px;	
+			margin:  0 auto;
+		}
+		.son .two .b input{
+			width: 276px;
+			height: 40px;
+			float: left;
+			outline: none;
+
+		}
+		
+		.son .two .b div{
+			width: 50px;
+			height: 43px;
+			float: left;
+			border: 1px solid #ccc;
+		}
+		.son .two .c{
+			width: 332px;
+			height: 20px;
+			margin: 0 auto;
+		}
+
+		.son .two .d{
+			width: 332px;
+			height: 50px;
+			margin: 30px auto 0;
+			
+
+		}
+		
+		.son .two .d div{
+			width: 74px;
+			height: 42px;
+			line-height: 42px;
+			border: 1px solid #ccc;
+			float: left;
+		}
+		.son .two .d input{
+			width: 240px;
+			height: 30px;
+			float: left;
+			padding: 5px;
+			outline: none;
+		}
+
+		.son .two .d .zhuce{
+			width: 330px;
+			height: 42px;
+			margin: 30px auto 0;
+			text-align: center;
+			background-color: #ff6700;
+		}
+
+		.son .two .d .zhuce a{
+			text-decoration: none;
+			color: #fff;
+		}
+
+		.son .two .e{
+			width: 420px;
+			height: 40px;
+			/*border: 1px solid red;*/
+			margin : 160px auto;
+		}
+		
+		.son .two .e a{
+			text-decoration: none;
+		}
+
+/*---------------------------第三个*/
+
+	.three{
+		width: 854px;
+		height: 300px;
+		
+}
+		
+		.three .one{
+			width: 350px;
+			height: 42px;
+			margin: 20px auto 0;
+			text-align: center;
+				
+		}
+
+		.three .one a{
+					text-decoration: none;
+					
+		}
+
+
+.three .one .b{
+	padding: 6px;
+}
+		
+	</style>
+</head>
+<body>
+	<div class="father">
+			<div class="son">
+						<div class="one"><p><a href="https://www.mi.com" target="_blank"><img src="3.png" title="米粉"></a></p></div>
+
+							<p style="text-align: center; color:#333; font-size: 30px;">注册小米账号</p> 
+
+							<div class="two  clearfix" >
+									<div class="a">国家/地区	</div>
+
+									<div class="b">	
+										<input type="text" placeholder="中国">
+										<div></div>
+									</div>	
+
+									<div class="c" >成功注册账号后，国家/地区将不能被修改
+										<p>手机号码</p>			
+									</div>
+
+									<div class="d clearfix">
+										<div>+86</div>
+										<input type="text" placeholder="请输入手机号码">
+										<div class="zhuce"><a href="#" >立即注册</a></div>
+									</div>	
+
+
+									<div class="e">
+										<span></span>
+										<span style="font-size: 14px;">注册帐号即表示您同意并愿意遵守小米 	</span>
+										<a href="#"><b><span style="color:#333; ">用户协议</b></a>和<a href="#"><b><span style="color:#333">隐私政策</span></b></a>
+								
+									</div>
+						
+							</div>
+
+
+
+							<div class="three">
+								<div class="one">
+			                     	<span><a href="#"  style="color:#333" >简体<span  class="b">|</span></a></span>
+			                     	<span><a href="#"  style="color:#757575">繁体<span  class="b">|</span></a></span>
+			                     	<span><a href="#"  style="color:#757575">English<span  class="b">|</span></a></span>
+			                     	<span><a href="#"  style="color:#757575">常见问题</a></span>
+							</div>
+
+
+
+								<div style="text-align:center; color:#9d9d9d">
+									<span>小米公司版权所有-京ICP备10046444-</span>
+									<a class="beianlink beian-record-link" target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802020134">
+										<span><img src="https://account.xiaomi.com/static/res/9204d06/account-static/respassport/acc-2014/img/ghs.png"></span>
+										<span style="color:#9d9d9d">京公网安备11010802020134号-京ICP证110507号</span></a>
+									
+									</div>
+								</div>
+								
+
+
+			</div>
+
+
+	
+
+
+	</div>
+
+
+</body>
+</html>
